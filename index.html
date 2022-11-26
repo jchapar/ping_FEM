@@ -16,7 +16,7 @@
   </head>
   <body class="font-sans">
     <!-- Global Container -->
-    <div class="container mx-auto max-w-7xl h-full w-full my-20 px-8">
+    <div class="container mx-auto max-w-4xl h-full w-full my-20 px-8 md:my-10">
       <!-- Flex Container -->
       <div class="flex flex-col items-center justify-center h-full w-full">
         <!-- Logo -->
@@ -31,36 +31,40 @@
           <p class="text-xl text-veryDarkBlue">Subscribe and get notified</p>
         </div>
         <!-- Subscription -->
-        <div class="subscription-wrapper flex flex-col w-full px-10 space-y-4 mb-20">
+        <div
+          class="subscription-wrapper flex flex-col w-full px-10 space-y-4 mb-20 md:flex-row md:space-y-0 md:space-x-4"
+        >
           <input
             type="text"
             name="email"
             id="email"
             placeholder="Your email address..."
-            class="border-2 border-paleBlue py-4 pl-8 rounded-full tracking-widest"
+            class="border-2 border-paleBlue py-4 pl-8 rounded-full tracking-widest outline-0 md:flex-auto md:w-64 active:border-paleBlue"
           />
-          <button class="bg-blue text-white py-4 px-4 rounded-full font-bold tracking-widest">
+          <button
+            class="bg-blue text-white py-4 px-4 rounded-full font-bold tracking-widest md:flex-auto md:w-20"
+          >
             Notify Me
           </button>
         </div>
         <!-- Landing Image -->
         <div class="landing-image mb-10">
-          <img src="images/illustration-dashboard.png" alt="Landing" />
+          <img src="images/illustration-dashboard.png" alt="Landing" class="md:max-w-[700px]" />
         </div>
         <!-- Socials -->
         <div class="socials flex items-start space-x-4 mb-8">
           <div
-            class="border-[1px] border-paleBlue h-[35px] w-[35px] rounded-full flex items-center justify-center"
+            class="border-[1px] border-paleBlue h-[35px] w-[35px] rounded-full flex items-center justify-center cursor-pointer hover:bg-paleBlue"
           >
             <i class="fa-brands fa-facebook-f text-blue"></i>
           </div>
           <div
-            class="border-[1px] border-paleBlue h-[35px] w-[35px] rounded-full flex items-center justify-center"
+            class="border-[1px] border-paleBlue h-[35px] w-[35px] rounded-full flex items-center justify-center cursor-pointer hover:bg-paleBlue"
           >
             <i class="fa-brands fa-twitter text-blue"></i>
           </div>
           <div
-            class="border-[1px] border-paleBlue h-[35px] w-[35px] rounded-full flex items-center justify-center"
+            class="border-[1px] border-paleBlue h-[35px] w-[35px] rounded-full flex items-center justify-center cursor-pointer hover:bg-paleBlue"
           >
             <i class="fa-brands fa-instagram text-blue"></i>
           </div>
