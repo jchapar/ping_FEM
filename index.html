@@ -4,8 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://kit.fontawesome.com/9a3dbda65a.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>PING | Coming Soon</title>
   </head>
-  <body></body>
+  <body class="font-sans">
+    <!-- Global Container -->
+    <div class="container mx-auto max-w-7xl h-screen w-full">
+      <!-- Flex Container -->
+      <div class="flex flex-col items-center justify-center h-full w-full space-y-4">
+        <!-- Logo -->
+        <div class="logo-wrapper">
+          <img src="images/logo.svg" alt="PING" />
+        </div>
+        <!-- Heading -->
+        <div class="heading-wrapper">
+          <h1>We are launching <span>soon!</span></h1>
+          <p>Subscribe and get notified</p>
+        </div>
+        <!-- Subscription -->
+        <div class="subscription-wrapper">
+          <input type="text" name="email" id="email" />
+          <button>Notify Me</button>
+        </div>
+        <!-- Landing Image -->
+        <div class="landing-image">
+          <img src="images/illustration-dashboard.png" alt="Landing" />
+        </div>
+        <!-- Socials -->
+        <div class="socials">
+          <div>
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+        <!-- Copyright -->
+        <p>&copy; Copyright Ping. All Rights Reserved</p>
+      </div>
+    </div>
+  </body>
 </html>
