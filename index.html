@@ -16,41 +16,57 @@
   </head>
   <body class="font-sans">
     <!-- Global Container -->
-    <div class="container mx-auto max-w-7xl h-screen w-full">
+    <div class="container mx-auto max-w-7xl h-full w-full my-20 px-8">
       <!-- Flex Container -->
-      <div class="flex flex-col items-center justify-center h-full w-full space-y-4">
+      <div class="flex flex-col items-center justify-center h-full w-full">
         <!-- Logo -->
-        <div class="logo-wrapper">
+        <div class="logo-wrapper mb-10">
           <img src="images/logo.svg" alt="PING" />
         </div>
         <!-- Heading -->
-        <div class="heading-wrapper">
-          <h1>We are launching <span>soon!</span></h1>
-          <p>Subscribe and get notified</p>
+        <div class="heading-wrapper text-center space-y-4 mb-10">
+          <h1 class="text-4xl text-gray font-[300]">
+            We are launching <span class="font-bold text-veryDarkBlue">soon!</span>
+          </h1>
+          <p class="text-xl text-veryDarkBlue">Subscribe and get notified</p>
         </div>
         <!-- Subscription -->
-        <div class="subscription-wrapper">
-          <input type="text" name="email" id="email" />
-          <button>Notify Me</button>
+        <div class="subscription-wrapper flex flex-col w-full px-10 space-y-4 mb-20">
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Your email address..."
+            class="border-2 border-paleBlue py-4 pl-8 rounded-full tracking-widest"
+          />
+          <button class="bg-blue text-white py-4 px-4 rounded-full font-bold tracking-widest">
+            Notify Me
+          </button>
         </div>
         <!-- Landing Image -->
-        <div class="landing-image">
+        <div class="landing-image mb-10">
           <img src="images/illustration-dashboard.png" alt="Landing" />
         </div>
         <!-- Socials -->
-        <div class="socials">
-          <div>
-            <i class="fa-brands fa-facebook-f"></i>
+        <div class="socials flex items-start space-x-4 mb-8">
+          <div
+            class="border-[1px] border-paleBlue h-[35px] w-[35px] rounded-full flex items-center justify-center"
+          >
+            <i class="fa-brands fa-facebook-f text-blue"></i>
           </div>
-          <div>
-            <i class="fa-brands fa-twitter"></i>
+          <div
+            class="border-[1px] border-paleBlue h-[35px] w-[35px] rounded-full flex items-center justify-center"
+          >
+            <i class="fa-brands fa-twitter text-blue"></i>
           </div>
-          <div>
-            <i class="fa-brands fa-instagram"></i>
+          <div
+            class="border-[1px] border-paleBlue h-[35px] w-[35px] rounded-full flex items-center justify-center"
+          >
+            <i class="fa-brands fa-instagram text-blue"></i>
           </div>
         </div>
         <!-- Copyright -->
-        <p>&copy; Copyright Ping. All Rights Reserved</p>
+        <p class="text-gray">&copy; Copyright Ping. All Rights Reserved</p>
       </div>
     </div>
   </body>
