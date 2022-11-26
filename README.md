@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [View Github Code](https://github.com/jchapar/ping_FEM)
-- Live Site URL: [Visit Site](https://gilded-kitsune-c0532d.netlify.app/)
+- Live Site URL: [Visit Site](https://jchapar.github.io/ping_FEM/)
 
 ## My process
 
